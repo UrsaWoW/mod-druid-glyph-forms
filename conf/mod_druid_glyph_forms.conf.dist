@@ -1,0 +1,29 @@
+#
+# This file is part of the AzerothCore Project. See AUTHORS file for Copyright information
+#
+# This file is free software; as a special exception the author gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+
+########################################
+# GlyphForms module configuration
+########################################
+#
+#    GlyphForms.Enable
+#        Description: Repurposes Glyph of Unburdened Rebirth: instead of
+#                      making Rebirth free of its mana cost, Tauren and Night
+#                      Elf druids who have the glyph slotted use the classic
+#                      (pre-WotLK) Bear Form, Dire Bear Form, and Cat Form
+#                      models instead of the WotLK per-hair/skin-color ones.
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled, restores core's default Glyph of
+#                          Unburdened Rebirth: real 100% Rebirth mana cost
+#                          reduction, no form model changes)
+#
+
+GlyphForms.Enable = 1
